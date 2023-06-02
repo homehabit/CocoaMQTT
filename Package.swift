@@ -1,5 +1,4 @@
-// swift-tools-version:5.0
-// The swift-tools-version declares the minimum version of Swift required to build this package.
+// swift-tools-version:5.5
 
 import PackageDescription
 
@@ -16,7 +15,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/leeway1208/MqttCocoaAsyncSocket", from: "1.0.8"),
-        .package(url: "https://github.com/daltoniam/Starscream.git", from: "4.0.4"),
+        .package(url: "https://github.com/homehabit/Starscream.git", revision: "1334815b730ef1bf16da377949a5e728a2e1d243"),
     ],
     targets: [
         .target(name: "CocoaMQTT",
